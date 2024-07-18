@@ -13,11 +13,11 @@ body{
 }
 
 .text, .text-titulo{
-    color: #828282;
+    color: var(--p-color);
 }
 
 h2, h3{
-    color: #4F4F4F;
+    color: var(--titulos-color)
 }
 
 .Perfil, .skills, .proyectos, .titulo, .titulo2, .titulo3, .experiencia, .certificados{

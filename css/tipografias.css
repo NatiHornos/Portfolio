@@ -6,98 +6,77 @@
 
 h1{
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29.26px;
+    font-size: 1.5rem;
     text-align: left;
 }
 
 h2{
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21.94px;
+    font-size: 1.125rem;
     text-align: left;
 }
 
 .contacto{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 21.94px;
     text-align: left;
 }
 
 .text, .text-titulo{
     font-weight: 400;
-    font-size: 18px;   
+    font-size: 1.125rem;   
 }
 
 h3{
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29.26px;
-    text-align: left;
-    width: 66px;
-    height: 29px;    
+    font-size: 1.5rem;
+    text-align: left;   
 }
 
 .skill-name{
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29.26px;
+    font-size: 1.5rem;
     text-align: left;
-    width: 154px;
-    height: 29px;
 }
 
 .responsivo, button{
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21.94px;
+    font-size: 1.125rem;
     text-align: center;
 }
 
 .hashtag{
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19.5px;
+    font-size: 1rem;
     text-align: left;
-    margin-top: 8px;
 }
 
 h4{
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29.6px;
+    font-size: 1.5rem;
     text-align: left;
-    margin-top: 8px;
 }
 
 .fecha{
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17.07px;
+    font-size: 0.875rem;
     text-align: left;
-    margin: 0;
-    margin-top: 16px;
 }
 
 .front, .descrip{
     font-weight: 400;
-    font-size: 16px;   
-    line-height: 19.5px;
-    margin: 0;
-    margin-top: 8px;
+    font-size: 1rem;   
 }
 
 .front-cert{
     font-weight: 400;
-    font-size: 16px;   
-    line-height: 19.5px;
+    font-size: 1rem;   
     text-align: left;
 }
 
 .fecha-cert{
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17.07px;
+    font-size: 0.875rem;
     text-align: left;
 }

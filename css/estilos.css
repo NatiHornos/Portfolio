@@ -1,6 +1,8 @@
 body{
     padding: 16px;
     gap: 24px;
+    height: 1900px;
+    width: auto;    
 }
 
 .FotoPerfil{
@@ -87,10 +89,10 @@ h1, h2{
     margin-bottom: 10px;
 }
 
-.skill-name {
-    width: 80px;
-    font-weight: bold;
+.skill-name{
     margin-right: 10px;
+    width: 154px;
+    height: 29px;
 }
 
 .proyectos{
@@ -166,6 +168,11 @@ button{
     margin-top: 16px;
 }
 
+.fecha{
+    margin: 0;
+    margin-top: 16px;
+}
+
 .exp1{
     width: 400px;
     height: 252px;
@@ -235,6 +242,11 @@ button{
     padding: 0px 16px;
 }
 
+.front, .descrip{
+    margin: 0;
+    margin-top: 8px;
+}
+
 .front-cert{
     margin-top: 32px;
     margin-bottom: 8px;
@@ -244,9 +256,18 @@ button{
     margin-top: 0px;
 }
 
+.cert-container2, .cert-container3{
+    display: none;
+}
+
 /** PANTALLA GRANDE **/
 
 @media (min-width: 768px){
+
+body{
+    height: 1900px;
+    width: auto;
+}    
 
 .Perfil{
     width: 530px;
@@ -415,17 +436,41 @@ button{
     margin-right: 16px;
 }
 
+.front-fecha{
+    margin-left: 8px;
+    position: absolute;
+    bottom: 16px;
+}
+
 .cert-container{
+   border: 1px solid var(--barra-color);
+    border-radius: 12px;
+    width: 294px;
+    height: 250px;
+    padding: 16px; 
+    position: absolute;
+    left: 100px;
+}
+
+.cert-container2{
     border: 1px solid var(--barra-color);
     border-radius: 12px;
     width: 294px;
     height: 250px;
     padding: 16px;
+    display: inline;
+    position: absolute;
+    left: 480px;
 }
 
-.front-fecha{
-    margin-left: 8px;
+.cert-container3{
+    border: 1px solid var(--barra-color);
+    border-radius: 12px;
+    width: 294px;
+    height: 250px;
+    padding: 16px;
+    display: inline;
     position: absolute;
-    bottom: 16px;
+    left: 860px;
 }
 }
