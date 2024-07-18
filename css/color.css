@@ -12,7 +12,7 @@ body{
     background-color: var(--bg-body)
 }
 
-.text{
+.text, .text-titulo{
     color: #828282;
 }
 
@@ -20,7 +20,7 @@ h2, h3{
     color: #4F4F4F;
 }
 
-.Perfil, .skills, .proyectos, .titulo, .experiencia, .certificados{
+.Perfil, .skills, .proyectos, .titulo, .titulo2, .titulo3, .experiencia, .certificados{
     background-color: var(--bg-section)
 }
 
