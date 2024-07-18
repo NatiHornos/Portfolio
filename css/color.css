@@ -1,0 +1,70 @@
+:root{
+    --p-color: #828282; 
+    --titulos-color: #4F4F4F;
+    --barra-color: #C4C4C4;
+    --botones-color: #2F80ED;
+    --bg-section: #FFFFFF; 
+    --bg-body: #F3EBEB;
+}
+
+
+body{
+    background-color: var(--bg-body)
+}
+
+.text{
+    color: #828282;
+}
+
+h2, h3{
+    color: #4F4F4F;
+}
+
+.Perfil, .skills, .proyectos, .titulo, .experiencia, .certificados{
+    background-color: var(--bg-section)
+}
+
+.skill-bar{
+    background-color: var(--barra-color);
+}
+
+.skill-level{
+    background-color: var(--botones-color);
+}
+
+.skill-name, .front{
+    color: var(--p-color);
+}
+
+.responsivo{
+    background-color: var(--botones-color);
+    color: #FFFFFF;
+    border: none;
+}
+
+button{
+    border: 1px solid var(--titulos-color);
+    background-color: inherit;
+}
+
+.portfolio{
+    border: 1px solid var(--barra-color);
+}
+
+.hashtag{
+    color: var(--titulos-color);
+}
+
+.code{
+    background-color: inherit;
+    color: var(--botones-color);
+    border-color: var(--botones-color);
+}
+
+.fecha, .descrip, .fecha-cert{
+    color: var(--p-color);
+}
+
+.front, .front-cert{
+    color: #000000;
+}

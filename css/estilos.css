@@ -1,0 +1,270 @@
+body{
+    padding: 16px;
+    gap: 24px;
+}
+
+.FotoPerfil{
+    width: 350px;
+    height: 340px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.Perfil{
+    width: 430px;
+    height: 630px;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 12px;
+}
+
+.mail, .phone{
+    width: 18px;
+}
+
+.text{
+    width: 400px;
+    height: 101.85px;
+}
+
+.nombre{
+    padding: 16px;
+    padding-left: 0;
+    margin-top: 16px;
+}
+
+.contacto{
+    margin-top: 16px;
+}
+
+h1, h2{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.info{
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto .email {
+    margin-bottom: 8px;
+}
+
+.numero{
+    margin-top: 8px;
+}
+
+.skills{
+    width: 430px;
+    height: 241px;
+    border-radius: 12px;
+    padding: 16px;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.skill-bar{
+    flex-grow: 1;
+    overflow: hidden;
+    width: 260px;
+    height: 10px;
+}
+
+.skill-level {
+    height: 20px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    width: 80px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.proyectos{
+    width: 430px;
+    height: 139px;
+    border-radius: 12px;
+    padding: 16px;
+    gap: 32px;
+    margin-top: 16px;
+}
+
+button{
+    width: 135px;
+    height: 46px;
+    border-radius: 12px;
+    padding: 12px 16px 12px 16px;
+    gap: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.responsivo{
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio{
+    width: 430px;
+    height: 298.5px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    object-fit:cover;
+}
+
+.titulo{
+    width: 430px;
+    height: 645px;
+    border-radius: 12px;
+    padding: 16px;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.code{
+    margin: 16px;
+    margin-top: 8px;
+}
+
+.experiencia{
+    width: 430px;
+    height: 329px;
+    border-radius: 12px;
+    padding: 16px;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.exp1{
+    width: 400px;
+    height: 252px;
+    border: 1px solid var(--barra-color);
+    border-radius: 12px;
+    margin-left: 16px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.empresa{
+    width: 191px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 16px;
+
+}
+
+.logo{
+    align-self: left;
+    padding-top: 70px;
+    padding-left: 55px;
+}
+
+.descrip{
+    width: auto;
+    height: 136px;
+    padding-top: 50px;
+    padding-right: 8px;
+}
+
+.certificados{
+    width: 430px;
+    height: 428px;
+    border-radius: 12px;
+    padding: 16px;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.cert{
+    width: 398px;
+    height: 260px;
+    border-radius: 12px;
+    border: 1px solid var(--barra-color);
+    padding: 0px 16px;
+}
+
+.front-cert{
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.fecha-cert{
+    margin-top: 0px;
+}
+
+
+@media (min-width: 768px){
+
+.Perfil{
+    width: 530px;
+    height: 630px;
+    margin-top: 0px;
+}
+
+.text{
+    width: 480px;
+    height: 101.85px;
+}
+
+.skills{
+    width: 680px;
+    height: 159px;
+    margin-top: 0px;
+    position: absolute;
+    left: 620px;
+    top: 25px
+}
+
+h3{
+   margin-top: 0;
+}
+
+.habilidades{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 32px;
+    margin: 32px;
+}
+
+.proyectos{
+    position: absolute;
+    left: 620px;
+    top: 216px;
+    width: 680px;
+    height: 139px;
+    display: flex;
+    align-items: center;
+}
+
+.proy{
+    align-self: flex-start;
+}
+
+.titulo{
+    position: absolute;
+    left: 620px;
+    top: 405px;
+    width: 680px;
+    height: 332px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+
+}
