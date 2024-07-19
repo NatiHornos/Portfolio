@@ -1,8 +1,6 @@
 body{
     padding: 16px;
-    gap: 24px;
-    height: 1900px;
-    width: auto;    
+    margin: 16px;
 }
 
 .FotoPerfil{
@@ -16,7 +14,6 @@ body{
     width: 430px;
     height: 630px;
     padding: 16px;
-    gap: 24px;
     border-radius: 12px;
 }
 
@@ -26,7 +23,6 @@ body{
 
 .text{
     width: 400px;
-    height: 101.85px;
 }
 
 .nombre{
@@ -47,7 +43,6 @@ h1, h2{
 .info{
     padding-left: 16px;
     padding-right: 16px;
-    margin: 0;
 }
 
 .contenedor{
